@@ -20,11 +20,12 @@ struct ContentView: View {
                 TextField("Enter your word", text: $newWord)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
-                
+
                 List(usedWords, id: \.self) {
                     Text($0)
                 }
             }
+            .navigationBarTitle(rootWord)
         }
     }
 }
