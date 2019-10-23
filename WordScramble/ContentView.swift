@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var usedWords = [String]()
+    @State private var rootWord = ""
+    @State private var newWord = ""
+    
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack{
+                TextField("Enter your word", text: $newWord)
+                
+                List(usedWords, id: \.self) {
+                    Text($0)
+                }
+            }
+        }
     }
 }
 
