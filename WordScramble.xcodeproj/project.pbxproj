@@ -13,6 +13,7 @@
 		6F557D7E23606C7E001799B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F557D7D23606C7E001799B2 /* Assets.xcassets */; };
 		6F557D8123606C7E001799B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F557D8023606C7E001799B2 /* Preview Assets.xcassets */; };
 		6F557D8423606C7E001799B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F557D8223606C7E001799B2 /* LaunchScreen.storyboard */; };
+		6FF2C0FC2360E38B00262A20 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6FF2C0FB2360E38B00262A20 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6F557D8023606C7E001799B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F557D8323606C7E001799B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F557D8523606C7E001799B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF2C0FB2360E38B00262A20 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6F557D7B23606C7D001799B2 /* ContentView.swift */,
 				6F557D7D23606C7E001799B2 /* Assets.xcassets */,
 				6F557D8223606C7E001799B2 /* LaunchScreen.storyboard */,
+				6FF2C0FB2360E38B00262A20 /* start.txt */,
 				6F557D8523606C7E001799B2 /* Info.plist */,
 				6F557D7F23606C7E001799B2 /* Preview Content */,
 			);
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F557D8423606C7E001799B2 /* LaunchScreen.storyboard in Resources */,
+				6FF2C0FC2360E38B00262A20 /* start.txt in Resources */,
 				6F557D8123606C7E001799B2 /* Preview Assets.xcassets in Resources */,
 				6F557D7E23606C7E001799B2 /* Assets.xcassets in Resources */,
 			);
